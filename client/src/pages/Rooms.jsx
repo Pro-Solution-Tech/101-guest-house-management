@@ -198,6 +198,7 @@ const Rooms = ({ onNavigate = () => {} }) => {
     fetchRooms();
   }, []);
 
+  // Whatsapp booking handler
   const handleBookRoom = (room) => {
     const message = `Hi! I'd like to book the ${
       room.name
